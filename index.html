@@ -1,79 +1,174 @@
+
 <!DOCTYPE html>
-<html>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Emulator : Emulator of NES, Super Nintendo, Sega Mega Drive video consoles, built on Adobe Flash technology">
+<html lang="en" >
+    <head>
+        <meta charset="utf-8">
+        <title>NESbox - play NES, SNES, SEGA games online!</title>
+        <meta name="description" content="NESbox is an emulator of NES, Super Nintendo, Sega Mega Drive video consoles, built on Adobe Flash technology and it can only be run directly in your browser&#39;s window.">
+        <meta name="author" content="Vadim Grigoruk">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link href="/css/main.css" rel="stylesheet"/>
 
-    <title>Emulator</title>
-  </head>
+        <link rel="shortcut icon" href="/images/favicon.ico">
+        
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  <body>
+		ga('create', 'UA-9879465-1', 'auto');
+		ga('send', 'pageview');
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/nesbox/emulator">View on GitHub</a>
+	</script>
 
-          <h1 id="project_title">Emulator</h1>
-          <h2 id="project_tagline">Emulator of NES, Super Nintendo, Sega Mega Drive video consoles, built on Adobe Flash technology</h2>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    </head>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/nesbox/emulator/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/nesbox/emulator/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+    <body>
+
+	<div class="container main-container">
+
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-3">
+            <img src="/images/biglogo.png"/>
+        </div>
+        <div class="col-md-9">
+            
+            <p>
+            	<h1>What is NESbox?</h1>
+            </p>
+            
+            <p>NESbox is an emulator of NES, Super Nintendo, Sega Mega Drive video consoles, built on Adobe Flash technology and it can only be run directly in your browser&#39;s window.</p>
+			
+        </div>
     </div>
+</div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<div class="text-center">
+	<div id="emulator" class="alert alert-info">
+		<p>To play this game, please, download the latest Flash player!</p>
+		<br>
+		<a href="http://www.adobe.com/go/getflashplayer">
+			<img src="http://www.adobe.com/images/shared/download_buttons/get_adobe_flash_player.png" alt="Get Adobe Flash player"/>
+		</a>
+	</div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+</div>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<hr>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<h1>FAQ</h1>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<h3>Where can you find ROM files?</h3>
+<p>
+	You can find and download 
+			<a target="_blank" href="http://thepiratebay.se/search/goodnes">GoodNes</a>,
+			<a target="_blank" href="http://thepiratebay.se/search/goodsnes">GoodSnes</a>,
+			<a target="_blank" href="http://thepiratebay.se/search/goodgen">GoodGen</a>,
+			<a target="_blank" href="http://thepiratebay.se/search/goodgbx">GoodGbx</a>,
+			<a target="_blank" href="http://thepiratebay.se/search/goodgba">GoodGba</a>
+			ROM collections.<br>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+Also, you can download ROMs on following websites:
+	<ul>
+		<li><a target="_blank" href="http://coolrom.com">coolrom.com</a></li>
+		<li><a target="_blank" href="http://www.emuparadise.me">emuparadise.me</a></li>
+		<li><a target="_blank" href="http://emu-land.net">emu-land.net</a></li>
+		<li>...</li>
+	</ul>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+	Please, email Us if you want to add website to the list.
+</p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<h3>What ROM types does the emulator support?</h3>
+<p>The emulator supports 
+<span class="label label-success">.nes</span> 
+<span class="label label-default">.smc</span> 
+<span class="label label-info">.gen</span> 
+<span class="label label-primary">.gb</span> 
+<span class="label label-warning">.gbc</span> 
+<span class="label label-danger">.gba</span>
+files.</p>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<h3>What happened with the Nesbox website and where are all the games?</h3>
+<p>Nesbox got 'Notice of Infringement' from Entertainment Software Association (<a href="http://theesa.com/">ESA</a>).
+They want to remove from the Website all links to unauthorized copies of ESA-member content.</p>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<h3>What can I do on the website now?</h3>
+<p>If you have ROM files you can load them into the emulator and play.</p>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<h3>What is the future of Nesbox website?</h3>
+<p>
+	We are going to add some features:
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+	<ul>
+		<li>everyone can take the emulator and embed it on their website;</li>
+		<li>support of Cloud Storages like Mega, GoogleDrive, OneDrive and etc.;</li>
+		<li>you can upload your ROM files to website or Cloud Storage and play;</li>
+		<li>...</li>
+	</ul>
+</p>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Emulator maintained by <a href="https://github.com/nesbox">nesbox</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
 
-    
+<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 
-  </body>
+<script type="text/javascript">
+
+	var resizeOwnEmulator = function(width, height)
+	{
+		var emulator = $('#emulator');
+		emulator.css('width', width);
+		emulator.css('height', height);
+	}
+
+	$(function()
+	{
+		function embed()
+		{
+			var emulator = $('#emulator');
+			if(emulator)
+			{
+				var flashvars = {};
+				var params = {};
+				var attributes = {};
+				
+				params.allowscriptaccess = 'sameDomain';
+				params.allowFullScreen = 'true';
+				params.allowFullScreenInteractive = 'true';
+				
+				swfobject.embedSWF('/flash/Nesbox.swf', 'emulator', '640', '480', '11.2.0', '/flash/expressInstall.swf', flashvars, params, attributes);
+			}
+		}
+		
+		embed();
+	});
+	
+</script>
+			
+            <hr>
+
+            <footer class="footer">
+				
+				<p class="pull-right" style="text-align:center;">
+					<a title="@nesboxcom" rel="tooltip" href="http://twitter.com/nesboxcom">twitter</a> <span class="text-muted">|</span>
+					<a href="http://facebook.com/nesbox">facebook</a> <span class="text-muted">|</span>
+					<a href="http://vk.com/nesboxclub">vkontakte</a> <span class="text-muted">|</span>
+					<a href="https://plus.google.com/+Nesbox">google+</a> <span class="text-muted">|</span>
+					<a title="support@nesbox.com" rel="tooltip" href="mailto:support@nesbox.com">support</a>
+				</p>
+				
+                <p class="pull-left">&copy; <a href="/">NESbox.com</a> 2014</p>
+            </footer>
+
+        </div>
+        
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	
+</body>
 </html>

@@ -1,0 +1,101 @@
+body 
+{
+	padding-bottom: 20px;
+	background-image:url('/images/back.png');
+}
+
+.main-container
+{
+	padding-top: 20px;
+	background-color:#ffffff;
+}
+
+img.grayed
+{
+	opacity:0.2;
+}
+
+a.game-thumbnail
+{
+	display: block;
+	margin: 0 auto;
+	max-width: 256px;
+}
+
+.chat-sidebar
+{
+	height: 320px;
+	overflow-y: auto;
+}
+
+.chat-log
+{
+	font-family: Menlo,Monaco,Consolas,'Courier New',monospace;
+	height: 320px;
+	overflow-y: auto;
+}
+
+.type-message
+{
+	text-align: center;
+}
+
+.chat-close
+{
+	cursor: pointer;
+}
+
+.smiley
+{
+	margin: 0 4px 4px 0; 
+	border:solid 1px #ddd;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.smiley:hover
+{
+	border:solid 1px #049cdb;
+}
+
+.ajax-loader, .recovery-ajax-loader
+{
+	width: 16px;
+	height: 16px;
+	background-image: url(/images/ajax-loader.gif);
+	margin: 0px auto;
+}
+
+.flag
+{
+	display: inline-block;
+	width: 16px;
+	height: 11px;
+    background: url(/images/flags.png) no-repeat top left;
+    margin-right: 10px;
+}
+
+.flag-de{ background-position: 0 0;  } 
+.flag-es{ background-position: -17px 0;  } 
+.flag-fr{ background-position: -34px 0;  } 
+.flag-it{ background-position: -51px 0;  } 
+.flag-ja{ background-position: -68px 0;  } 
+.flag-ko{ background-position: -85px 0;  } 
+.flag-pl{ background-position: -102px 0;  } 
+.flag-pt{ background-position: -119px 0;  } 
+.flag-ru{ background-position: -136px 0;  } 
+.flag-th{ background-position: -153px 0;  } 
+.flag-tr{ background-position: -170px 0;  } 
+.flag-uk{ background-position: -187px 0;  } 
+.flag-en{ background-position: -204px 0;  } 
+.flag-zh{ background-position: -221px 0;  } 
+.flag-be{ background-position: -238px 0;  } 
+.flag-ar{ background-position: -255px 0;  }
+.flag-hy{ background-position: -272px 0;  } 
+.flag-eo{ background-position: -289px 0;  } 
+.flag-nl{ background-position: -306px 0;  } 
+.flag-az{ background-position: -323px 0;  } 
+.flag-ro{ background-position: -340px 0;  } 
+.flag-ca{ background-position: -357px 0;  } 
+.flag-sr{ background-position: -374px 0;  } 
+.flag-hu{ background-position: -391px 0;  } 
