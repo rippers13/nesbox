@@ -6,8 +6,13 @@ body
 
 .main-container
 {
-	padding-top: 20px;
 	background-color:#ffffff;
+}
+
+.top-banner
+{
+	width: 728px;
+	margin: 20px auto;
 }
 
 img.grayed
